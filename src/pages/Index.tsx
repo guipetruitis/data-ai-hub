@@ -1,12 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useEffect } from "react";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import TipsSection from "@/components/TipsSection";
+import RoadmapsSection from "@/components/RoadmapsSection";
+import CuriositiesSection from "@/components/CuriositiesSection";
+import ResourcesSection from "@/components/ResourcesSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
+  useEffect(() => {
+    document.title = "DataDevHub - Dados & IA para Desenvolvedores";
+    
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Descubra dicas práticas, roadmaps estruturados e os melhores recursos para dominar Data Science e Inteligência Artificial. Para desenvolvedores curiosos.');
+    }
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background text-foreground">
+      <Header />
+      <main>
+        <Hero />
+        <TipsSection />
+        <RoadmapsSection />
+        <CuriositiesSection />
+        <ResourcesSection />
+      </main>
+      <Footer />
     </div>
   );
 };
