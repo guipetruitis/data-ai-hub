@@ -27,6 +27,12 @@ const TipsSection = () => {
       title: "Monitoramento de Modelos",
       description: "Use MLflow ou Weights & Biases para trackear performance e detectar data drift em produção.",
       category: "MLOps"
+    },
+    {
+      icon: <Brain className="w-6 h-6" />,
+      title: "Prompt Engineering Eficaz",
+      description: "Domine técnicas como Chain-of-Thought, Few-shot prompting e RAG para maximizar a performance de LLMs.",
+      category: "IA Generativa"
     }
   ];
 

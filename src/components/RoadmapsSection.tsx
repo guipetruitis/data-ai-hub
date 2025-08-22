@@ -31,6 +31,15 @@ const RoadmapsSection = () => {
       rating: "4.9",
       students: "1.2k",
       topics: ["TensorFlow", "PyTorch", "NLP", "Computer Vision"]
+    },
+    {
+      title: "IA Generativa & LLMs",
+      description: "GPT, BERT, fine-tuning, prompt engineering, RAG, agents e aplicações práticas",
+      duration: "5-7 meses",
+      level: "Intermediário",
+      rating: "4.8",
+      students: "950",
+      topics: ["LLMs", "Fine-tuning", "RAG", "Langchain", "Agents"]
     }
   ];
 

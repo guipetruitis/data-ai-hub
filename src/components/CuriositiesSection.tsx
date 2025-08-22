@@ -39,6 +39,18 @@ const CuriositiesSection = () => {
       description: "Mas você sabia que uma única Random Forest pode ter milhares de árvores de decisão? Cada uma vota na predição final, criando um 'ensemble democrático'.",
       tag: "Algoritmos",
       trend: "Ensemble"
+    },
+    {
+      title: "ChatGPT foi treinado com 45TB de dados de texto",
+      description: "Isso equivale a aproximadamente 1 trilhão de palavras! Para comparar, uma pessoa lê cerca de 5 milhões de palavras por ano.",
+      tag: "IA Generativa",
+      trend: "45TB"
+    },
+    {
+      title: "GPT-4 pode 'ver' imagens, mas não como nós",
+      description: "O modelo converte imagens em tokens, processando-as como sequências de texto. É como se 'descrevesse' a imagem para si mesmo antes de analisá-la.",
+      tag: "Multimodal",
+      trend: "Tokens"
     }
   ];
 

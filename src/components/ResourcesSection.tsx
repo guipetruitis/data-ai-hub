@@ -28,6 +28,14 @@ const ResourcesSection = () => {
       forks: "74.1k", 
       language: "C++",
       category: "Framework"
+    },
+    {
+      name: "langchain",
+      description: "Framework para desenvolver aplicações com LLMs, RAG, agents e muito mais",
+      stars: "87.2k",
+      forks: "13.8k",
+      language: "Python",
+      category: "IA Generativa"
     }
   ];
 
@@ -51,6 +59,13 @@ const ResourcesSection = () => {
       description: "Especializações da Stanford, DeepLearning.ai e outras universidades",
       type: "Certificação",
       rating: "4.7",
+      icon: <BookOpen className="w-5 h-5" />
+    },
+    {
+      name: "Prompt Engineering Guide",
+      description: "Guia completo com técnicas e estratégias para otimizar prompts em LLMs",
+      type: "Guia",
+      rating: "4.9",
       icon: <BookOpen className="w-5 h-5" />
     }
   ];
